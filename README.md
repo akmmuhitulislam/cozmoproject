@@ -17,6 +17,10 @@
 running the script cozmo_drive.py will prompt the user to enter right and left wheel speeds for cozmo's step, these experiences will be saved as a new replay buffer which can later be merged with any previous buffer.
 * python cozmo_drive.py
 
+## training can be done using the experiences in the replay buffer by running train_replay.py.
+this script won't use cozmo in real time (like in rl_train.py), rather it will just train on the experiences previously stored in the replay buffer.
+* python train_replay.py  
+
 ### merge_replay.py can be used to merge two replay buffers. 
 ### view_and_select_replay.py shows the experiences stored in the replay buffer and lets user keep/remove experiences as necessary.
 ### modify_replay.py can be used to modify the replay buffer experiences (for reward engineering).
