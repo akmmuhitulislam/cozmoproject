@@ -1,6 +1,6 @@
 # cozmoproject
 ## Install the following dependencies:
-* pip install cozmo[camera] torch torchvision opencv-python
+* pip install cozmo[camera] torch torchvision opencv-python pynput pillow
 
 ## In order to use the trained model for inference,simply run inference.py.
 (make sure that Cozmo is connected and placed on a proper track/path)
