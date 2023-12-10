@@ -13,8 +13,8 @@
 (modify the replay_buffer_path in the rl_train.py file to "new_replay_buffer" to use an empty replay buffer and save it as "new_replay_buffer" later)
 * python rl_train.py
 
-## Custom experiences can be added to the replay_buffer using cozmo_drive.py and merge_replay.py later.
-running the script cozmo_drive.py will prompt the user to enter right and left wheel speeds for cozmo's step, these experinces will be saved as a new replay buffer which can later be merged with any previous buffer.
+## Custom experiences can be added to the replay_buffer using cozmo_drive.py.
+running the script cozmo_drive.py will prompt the user to enter right and left wheel speeds for cozmo's step, these experiences will be saved as a new replay buffer which can later be merged with any previous buffer.
 * python cozmo_drive.py
 
 ### merge_replay.py can be used to merge two replay buffers. 
